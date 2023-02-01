@@ -19,7 +19,7 @@ module.exports = async () => {
       return true;
     }
   });
-  console.log(outPut[0]);
+  console.log(outPut[0].Content._cdata);
 
   // fs.writeFile(
   //   "titles_and_dates.txt",
