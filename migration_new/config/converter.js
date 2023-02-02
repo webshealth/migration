@@ -12,19 +12,17 @@ module.exports = async () => {
   var result = convert.xml2json(xml, { compact: true, spaces: 4 });
   const data = JSON.parse(result);
   const titles_and_content_dates = [];
+  console.log(data.data.post[0])
 
-console.log(data.data)
-
-
-  // const outPut = data.data.post.filter((i) => {
-  //   if (
-  //     i.Title._text ===
-  //     "Top Blockchain Conferences 2022: Where to get industry insight?"
-  //   ) {
-  //     return true;
-  //   }
-  // });
-  // console.log(outPut[0]);
+  const outPut = data.data.post.filter((i) => {
+    if (
+      i.Title._text ===
+      "Top Blockchain Conferences 2022: Where to get industry insight?"
+    ) {
+      return true;
+    }
+  });
+  console.log(outPut[0]);
 
   // fs.writeFile(
   //   "titles_and_dates.txt",
