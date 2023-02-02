@@ -1,7 +1,5 @@
 "use-strict";
 
-const { type } = require("os");
-
 module.exports = async () => {
   var convert = require("xml-js");
   const fs = require("fs");
@@ -12,9 +10,7 @@ module.exports = async () => {
   var result = convert.xml2json(xml, { compact: true, spaces: 4 });
   const data = JSON.parse(result);
   const titles_and_content_dates = [];
-
-console.log(data.data)
-
+  console.log(data.data.post[0].Content._text)
 
   // const outPut = data.data.post.filter((i) => {
   //   if (
