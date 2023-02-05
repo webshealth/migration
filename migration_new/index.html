@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Test</h2>
+    <script>  
+    var convert = require("xml-js");
+    const fs = require("fs");
+    var xml = require("fs").readFileSync("./New CoinBureau.xml", "utf8");
+      
+        // var list = [];
+      
+        var result = convert.xml2json(xml, { compact: true, spaces: 4 });
+        const data = JSON.parse(result);
+        const titles_and_content_dates = [];
+        console.log(data.data.post[0])</script>
+    
+</body>
+</html>

@@ -1,5 +1,7 @@
 "use-strict";
 
+const { type } = require("os");
+
 module.exports = async () => {
   var convert = require("xml-js");
   const Papa = require("papaparse");
@@ -239,23 +241,22 @@ module.exports = async () => {
     }
   };
 
-  const outPut = data.data.post
-    .filter((i) => {
-      if (i.Categories._text.split("|").length > 1) {
-        return true;
-      }
-    })
-    // .map((it) => {
-    //   list.push({
-    //     URL: it.Permalink._text,
-    //     No: it.Categories._text.split("|").length,
-    //     F_One: it.Categories._text.split("|")[0],
-    //     s_One: it.Categories._text.split("|")[1],
-    //     primaryID: returnPrimaryCategory(
-    //       Number(it._yoast_wpseo_primary_category._text)
-    //     ),
-    //   });
-    // });
+  const outPut = data.data.post.filter((i) => {
+    if (i.Categories._text.split("|").length > 1) {
+      return true;
+    }
+  });
+  // .map((it) => {
+  //   list.push({
+  //     URL: it.Permalink._text,
+  //     No: it.Categories._text.split("|").length,
+  //     F_One: it.Categories._text.split("|")[0],
+  //     s_One: it.Categories._text.split("|")[1],
+  //     primaryID: returnPrimaryCategory(
+  //       Number(it._yoast_wpseo_primary_category._text)
+  //     ),
+  //   });
+  // });
   console.log(outPut[0]);
 
   // const csv = Papa.unparse(list);
@@ -263,7 +264,6 @@ module.exports = async () => {
   //   if (err) throw err;
   //   console.log("The file was saved!");
   // });
-
 
   // await Promise.all(
   //   data.rss.channel.item.map((item) => {
