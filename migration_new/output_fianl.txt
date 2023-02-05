@@ -1,0 +1,42 @@
+Title,URL,No,F_One,s_One,Primary_category,New_ID,Name,Nipun_ID,Nipun_Title
+Buying Monero with LocalMonero - A Step by Step Guide,https://cbtestw.kinsta.cloud/services/buying-monero-with-localmonero-step-by-step-guide/,2,Review,Services,37,14,Services,14,Buying Monero with LocalMonero - A Step by Step Guide
+Beginners Guide to Using MetaMask-The Ultimate Doorway to DeFi!,https://cbtestw.kinsta.cloud/education/metamask-beginners-guide/,2,Education,Services,24,5,Education,5,Beginners Guide to Using MetaMask-The Ultimate Doorway to DeFi!
+Step-by-Step Guide to Buying BCH on Local Bitcoin Cash,https://cbtestw.kinsta.cloud/services/local-bitcoin-cash/,2,Review,Services,37,14,Services,14,Step-by-Step Guide to Buying BCH on Local Bitcoin Cash
+Enjin Coin Review 2022: Putting Gaming On The Blockchain,https://cbtestw.kinsta.cloud/smart-contracts/enjin-coin-enj/,2,Review,Smart Contracts,422,13,Review,13,Enjin Coin Review 2022: Putting Gaming On The Blockchain
+Bitquick Review: Complete Beginners Guide,https://cbtestw.kinsta.cloud/services/bitquick/,2,Review,Services,422,13,Review,13,Bitquick Review: Complete Beginners Guide
+Best Monero Wallets in 2022: Where to Store Your XMR,https://cbtestw.kinsta.cloud/analysis/best-monero-wallets/,2,Analysis,Review,16,2,Analysis,2,Best Monero Wallets in 2022: Where to Store Your XMR
+Crypto.com Review 2022: A Robust All-in-One Crypto Solution,https://cbtestw.kinsta.cloud/adoption/crypto-com-mco/,2,Adoption,Review,422,13,Review,13,Crypto.com Review 2022: A Robust All-in-One Crypto Solution
+OST Token Review: Beginners-Blockchain-as-a-Service,https://cbtestw.kinsta.cloud/blockchain/ost-token/,2,Blockchain,Review,422,13,Review,13,OST Token Review: Beginners-Blockchain-as-a-Service
+MyFX Markets Review: Forex Broker Overview,https://cbtestw.kinsta.cloud/review/myfx-markets/,2,Review,Trading,422,13,Review,13,MyFX Markets Review: Forex Broker Overview
+CryptoCurrency Marketing Agencies: Complete 2022 Overview,https://cbtestw.kinsta.cloud/analysis/crypto-marketing-agencies/,2,Analysis,Review,16,2,Analysis,2,CryptoCurrency Marketing Agencies: Complete 2022 Overview
+Blockchain Domains: Complete Guide from DNS to ENS,https://cbtestw.kinsta.cloud/education/blockchain-domains/,2,Blockchain,Education,24,5,Education,5,Blockchain Domains: Complete Guide from DNS to ENS
+Trust Wallet Review: Complete Wallet Overview,https://cbtestw.kinsta.cloud/analysis/trust-wallet/,2,Analysis,Review,422,13,Review,13,Trust Wallet Review: Complete Wallet Overview
+Trezor One Vs Trezor Model T Review: Which Trezor is Best for You?,https://cbtestw.kinsta.cloud/analysis/trezor-models-compared/,2,Analysis,Review,422,13,Review,13,Trezor One Vs Trezor Model T Review: Which Trezor is Best for You?
+Aluna Social Review: The ULTIMATE Social Trading Terminal?,https://cbtestw.kinsta.cloud/review/aluna-social-2/,2,Review,Trading,422,13,Review,13,Aluna Social Review: The ULTIMATE Social Trading Terminal?
+Crypto Trading Bots : Automated Money Machines?,https://cbtestw.kinsta.cloud/review/crypto-trading-bots/,2,Guides,Review,2412,7,Guides,7,Crypto Trading Bots : Automated Money Machines?
+Mint NFTs: Top 5 Platforms to Create and PROFIT!,https://cbtestw.kinsta.cloud/education/mint-nfts-guide/,2,Adoption,Education,24,5,Education,5,Mint NFTs: Top 5 Platforms to Create and PROFIT!
+How and Where to Stake Ethereum,https://cbtestw.kinsta.cloud/education/how-to-stake-ethereum/,2,Education,Guides,2412,7,Guides,7,How and Where to Stake Ethereum
+Beyond Digital Collectibles: 6 Other Use Cases For NFTs,https://cbtestw.kinsta.cloud/analysis/nft-use-cases/,2,Adoption,Analysis,16,2,Analysis,2,Beyond Digital Collectibles: 6 Other Use Cases For NFTs
+Ellipal Titan Wallet Review- Next Generation of Hardware Wallet?,https://cbtestw.kinsta.cloud/analysis/ellipal-titan-hardware-wallet/,2,Analysis,Review,422,13,Review,13,Ellipal Titan Wallet Review- Next Generation of Hardware Wallet?
+Make a Killing on the Cute and Potentially Lethal PancakeSwap,https://cbtestw.kinsta.cloud/defi/pancakeswap/,2,Defi,Guides,2412,7,Guides,7,Make a Killing on the Cute and Potentially Lethal PancakeSwap
+"Mastercard Gets Deep Into Crypto, CEO Says Big Opportunities Await In the Industry",https://cbtestw.kinsta.cloud/news/mastercard-gets-deep-into-crypto-ceo-says-big-opportunities-await-in-the-industry/,2,Adoption,News,4,11,News,11,"Mastercard Gets Deep Into Crypto, CEO Says Big Opportunities Await In the Industry"
+Atari Chain: Retro Gaming to Blockchain Future,https://cbtestw.kinsta.cloud/analysis/atari-chain/,2,Analysis,Review,422,13,Review,13,Atari Chain: Retro Gaming to Blockchain Future
+Crypto Investing: 8 Blockchain Games you NEED to Check Out!,https://cbtestw.kinsta.cloud/analysis/blockchain-games-investing/,2,Analysis,Review,16,2,Analysis,2,Crypto Investing: 8 Blockchain Games you NEED to Check Out!
+"The FUTURE of Blockchain Gaming: Early Days, Potential GAINS?",https://cbtestw.kinsta.cloud/analysis/future-blockchain-gaming/,2,Adoption,Analysis,16,2,Analysis,2,"The FUTURE of Blockchain Gaming: Early Days, Potential GAINS?"
+Should You Use Bitcoin ETFs for Bitcoin Exposure?,https://cbtestw.kinsta.cloud/adoption/bitcoin-etfs/,2,Adoption,Guides,233,1,Adoption,1,Should You Use Bitcoin ETFs for Bitcoin Exposure?
+Crypto Passive Income for Beginners,https://cbtestw.kinsta.cloud/education/crypto-passive-income/,2,Education,Guides,24,5,Education,5,Crypto Passive Income for Beginners
+The Lightning Network Electrifies Bitcoin,https://cbtestw.kinsta.cloud/education/lightning-network/,2,Education,Technology,2565,16,Technology,16,The Lightning Network Electrifies Bitcoin
+Utility NFTs: NFTs with Real Muscle,https://cbtestw.kinsta.cloud/adoption/utility-nfts/,2,Adoption,Guides,2412,7,Guides,7,Utility NFTs: NFTs with Real Muscle
+How To Create a Crypto Portfolio That Can Survive a Bear Market,https://cbtestw.kinsta.cloud/trading/safe-crypto-portfolio-bear-market/,2,Guides,Trading,2412,7,Guides,7,How To Create a Crypto Portfolio That Can Survive a Bear Market
+What is Web 3.0 and Why it Has Insane Potential,https://cbtestw.kinsta.cloud/adoption/what-is-web-3-0/,2,Adoption,Guides,233,1,Adoption,1,What is Web 3.0 and Why it Has Insane Potential
+Top 10 Crypto Research Tools: Where To Do Your Own Research?,https://cbtestw.kinsta.cloud/education/crypto-research-tools/,3,Education,Review,422,13,Review,13,Top 10 Crypto Research Tools: Where To Do Your Own Research?
+Top 9 Projects In The Solana Ecosystem: Huge Potential!,https://cbtestw.kinsta.cloud/adoption/top-projects-solana/,2,Adoption,Guides,2412,7,Guides,7,Top 9 Projects In The Solana Ecosystem: Huge Potential!
+Crypto Charities and Donations: Embrace The Gift of Giving,https://cbtestw.kinsta.cloud/analysis/crypto-charities-and-donations/,2,Adoption,Analysis,16,2,Analysis,2,Crypto Charities and Donations: Embrace The Gift of Giving
+The Sandbox Review: Have we missed the Boat?!,https://cbtestw.kinsta.cloud/review/the-sandbox/,2,Guides,Review,422,13,Review,13,The Sandbox Review: Have we missed the Boat?!
+OpenDAO Airdrops SOS on OpenSea Community,https://cbtestw.kinsta.cloud/analysis/opendao-sos-opensea/,2,Analysis,Review,422,13,Review,13,OpenDAO Airdrops SOS on OpenSea Community
+Tech Giant Samsung to Use Cardano Blockchain for Reforestation Program,https://cbtestw.kinsta.cloud/news/tech-giant-samsung-to-use-cardano-blockchain-for-reforestation-program/,2,Adoption,News,233,1,Adoption,1,Tech Giant Samsung to Use Cardano Blockchain for Reforestation Program
+Kadena Deepdive! The Blockchain Trilemma solved?!,https://cbtestw.kinsta.cloud/education/kadena/,2,Education,Review,422,13,Review,13,Kadena Deepdive! The Blockchain Trilemma solved?!
+NFT Scams: How to Avoid them and Keep SAFE!,https://cbtestw.kinsta.cloud/education/nft-scams/,2,Education,Guides,24,5,Education,5,NFT Scams: How to Avoid them and Keep SAFE!
+GensoKishi: A Blockchain Gaming Revolution,https://cbtestw.kinsta.cloud/analysis/gensokishi/,2,Analysis,Review,422,13,Review,13,GensoKishi: A Blockchain Gaming Revolution
+SundaeSwap: Decentralized Finance on Cardano,https://cbtestw.kinsta.cloud/review/sundaeswap/,2,Guides,Review,422,13,Review,13,SundaeSwap: Decentralized Finance on Cardano
+Rubic (RBC): DeFi For The Masses!,https://cbtestw.kinsta.cloud/analysis/rubic-rbc/,2,Analysis,Defi,2113,4,Defi,4,Rubic (RBC): DeFi For The Masses!

@@ -3,6 +3,7 @@
 const { type } = require("os");
 
 module.exports = async () => {
+  const new_JSON = require("../all_articles.json");
   var convert = require("xml-js");
   const Papa = require("papaparse");
   const fs = require("fs");
@@ -12,6 +13,8 @@ module.exports = async () => {
   );
 
   var list = [];
+  var list_Nipuna = [];
+  var final_list = [];
 
   var result = convert.xml2json(xml, { compact: true, spaces: 4 });
   const data = JSON.parse(result);
@@ -236,7 +239,11 @@ module.exports = async () => {
     };
     for (const [key, value] of Object.entries(categoryData)) {
       if (primaryID == value.attributes.primaryID) {
-        return [value.attributes.primaryID, value.id, value.attributes.name];
+        return {
+          a: value.attributes.primaryID,
+          b: value.id,
+          c: value.attributes.name,
+        };
       }
     }
   };
@@ -248,21 +255,81 @@ module.exports = async () => {
       }
     })
     .map((it) => {
-      list.push({
-        Title: it.Title._text,
-        URL: it.Permalink._text,
-        No: it.Categories._text.split("|").length,
-        F_One: it.Categories._text.split("|")[0],
-        s_One: it.Categories._text.split("|")[1],
-        primaryID: returnPrimaryCategory(
+      if (
+        returnPrimaryCategory(
           Number(it._yoast_wpseo_primary_category._text)
-        ),
-      });
+        ) !== undefined
+      ) {
+        list.push({
+          Title: it.Title._text,
+          URL: it.Permalink._text,
+          No: it.Categories._text.split("|").length,
+          F_One: it.Categories._text.split("|")[0],
+          s_One: it.Categories._text.split("|")[1],
+          Primary_category: returnPrimaryCategory(
+            Number(it._yoast_wpseo_primary_category._text)
+          )["a"],
+          New_ID: returnPrimaryCategory(
+            Number(it._yoast_wpseo_primary_category._text)
+          )["b"],
+          Name: returnPrimaryCategory(
+            Number(it._yoast_wpseo_primary_category._text)
+          )["c"],
+        });
+      }
     });
+  const a3 = new_JSON.map((f) => {
+    list_Nipuna.push({ Title: f.title, Primary_category: f.blog_category });
+  });
+  // console.log(list[0].Title, list_Nipuna[0].Title);
+  function duplicateElements(arr1, arr2) {
+    return arr1.filter(function (item) {
+      return arr2.includes(item.Title);
+    });
+  }
 
-  const csv = Papa.unparse(list);
-  fs.writeFile("output.txt", csv, (err) => {
+  list_Nipuna_Titles = list_Nipuna.map((obj) => obj.Title);
+  // console.log(duplicateElements(list, list_Nipuna_Titles)[0]);
+  unique_Titles = duplicateElements(list, list_Nipuna_Titles).map(
+    (obj) => obj.Title
+  );
+
+  new_JSON_Titles = new_JSON.map((obj) => {
+    obj.Title;
+  });
+
+  // console.log(duplicateElements(list_Nipuna, unique_Titles)[0]);
+
+  for (
+    let index = 0;
+    index < duplicateElements(list, list_Nipuna_Titles).length;
+    index++
+  ) {
+    final_list.push({
+      Title: duplicateElements(list, list_Nipuna_Titles)[index].Title,
+      URL: duplicateElements(list, list_Nipuna_Titles)[index].URL,
+      No: duplicateElements(list, list_Nipuna_Titles)[index].No,
+      F_One: duplicateElements(list, list_Nipuna_Titles)[index].F_One,
+      s_One: duplicateElements(list, list_Nipuna_Titles)[index].s_One,
+      Primary_category: duplicateElements(list, list_Nipuna_Titles)[index]
+        .Primary_category,
+      New_ID: duplicateElements(list, list_Nipuna_Titles)[index].New_ID,
+      Name: duplicateElements(list, list_Nipuna_Titles)[index].Name,
+      Nipun_ID: duplicateElements(list_Nipuna, unique_Titles)[index]
+        .Primary_category,
+      Nipun_Title: duplicateElements(list_Nipuna, unique_Titles)[index].Title,
+    });
+  }
+
+  console.log(final_list);
+  const csv_final = Papa.unparse(final_list);
+  fs.writeFile("output_fianl.txt", csv_final, (err) => {
     if (err) throw err;
     console.log("The file was saved!");
   });
+  // const csvNew = Papa.unparse(list_Nipuna);
+  // fs.writeFile("outputNew.txt", csvNew, (err) => {
+  //   if (err) throw err;
+  //   console.log("The file was saved!");
+  // });
 };
