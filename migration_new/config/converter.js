@@ -8,17 +8,20 @@ module.exports = async () => {
   // const Papa = require("papaparse");
   const fs = require("fs");
   var xml = require("fs").readFileSync(
-    "./Posts-Export-2023-February-06-0718.xml",
+    "./coinbureau.WordPress.2023-02-24.xml",
     "utf8"
   );
 
-  // var list = [];
+  var list = [];
   // var list_Nipuna = [];
   // var final_list = [];
 
   var result = convert.xml2json(xml, { compact: true, spaces: 4 });
   const data = JSON.parse(result);
-  console.log(data.data.post[0]);
+
+
+console.log(result);
+
   // const returnPrimaryCategory = (primaryID) => {
   //   const categoryData = {
   //     Adoption: {
