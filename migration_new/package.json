@@ -1,6 +1,6 @@
 {
   "name": "migration-new",
-  "private": true,
+  "private": false,
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
@@ -16,6 +16,7 @@
     "better-sqlite3": "7.4.6",
     "papaparse": "^5.3.2",
     "strapi-plugin-meilisearch": "^0.9.1",
+    "strapi-plugin-preview-button": "^1.1.2",
     "xml-js": "^1.6.11"
   },
   "author": {
