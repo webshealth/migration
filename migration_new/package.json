@@ -15,7 +15,6 @@
     "@strapi/strapi": "4.6.0",
     "better-sqlite3": "7.4.6",
     "papaparse": "^5.3.2",
-    "strapi-plugin-meilisearch": "^0.9.1",
     "xml-js": "^1.6.11"
   },
   "author": {
